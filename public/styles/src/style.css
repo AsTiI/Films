@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "karla";
+    src: url("/fonts/karla.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "karla";
+    src: url("/fonts/karla-bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "karla";
+    src: url("/fonts/karla-italic.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: "karla";
+    src: url("/fonts/karla-bold-italic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+}
+body {
+    user-select: none;
+    font-family: karla, Verdana, Geneva, Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+li {
+    text-decoration: none;
+}
+.container {
+    width: 1024px;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+.flex-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+nav .flex-wrapper {
+    justify-content: flex-end;
+    margin: 1px 0;
+}
+nav {
+    text-align: end;
+}
+nav ul {
+    font-size: 0;
+    display: inline-block;
+}
+nav ul li {
+    font-size: 1rem;
+    display: inline-block;
+}
+nav ul li a {
+    display: inline-block;
+    padding: 10px 10px;
+    border: 1px solid grey;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+main {
+    margin-top: 10px;
+    /*overflow: hidden;*/
+
+}
+.content {
+    background-color: #222;
+    border-top: 1px solid #848480;
+    border-right: 1px solid #848480;
+    border-bottom: 1px solid #848480;
+    border-left: 1px solid #000;
+    border-radius: 0 10px 10px 0;
+}
+main .flex-wrapper .navigation {
+    width: 35%;
+}
+main .flex-wrapper .content {
+    width: 65%;
+}
+.cards {
+    border-left: 1px solid #000;
+}
+.cards img {
+    width: 200px;
+    height: 300px;
+}
+.card {
+    padding: 20px;
+    border-top: 1px solid #404040;
+    border-bottom: 1px solid #111;
+    border-left: 1px solid #404040;
+}
+.card:first-child{
+    border-top: none;
+}
+.card .l-side {
+    width: 35%;
+    padding: 1px;
+}
+.title{
+    text-align: center;
+}
+.card .r-side {
+    width: 65%;
+    padding: 1px;
+    color: #a8a8a8;
+}
+.card .r-side .rating, .date {
+    text-align: right;
+}
+.card .plot {
+    margin-bottom: 15px;
+}
+.about {
+    padding: 10px;
+
+}
+.thorough {
+    padding: 5px;
+    background-color: grey;
+    float: left;
+    margin-left: 35px;
+}
+
+.navigation{
+    background-color: #585858;
+    font-size: 20px;
+    border-top: 1px solid #848480;
+    border-left: 1px solid #848480;
+    border-bottom: 1px solid #848480;
+    border-radius: 10px 0 0 10px;
+}
+.navigation .flex-wrapper {
+    justify-content: flex-start;
+    padding: 10px 0 0 25px;
+}
+.genre-navigation {
+    margin: 0 20px 0 0;
+}
+
+
+.navigation ul {
+    list-style: none;
+}
+
+
+
+.navigat {
+    border-bottom: 1px solid #3f413f;
+    padding: 10px 25px;
+    margin: 0;
+}

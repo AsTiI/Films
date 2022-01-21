@@ -1,0 +1,22 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+package-lock.json
+
+# compiled output
+/dist
+/tmp
+
+/js/dist
+/styles/dist
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+
+package-lock.json
+js/src
+css/src
+
+/films
